@@ -9,7 +9,7 @@ $(document).ready(function(){
    	var tone = require('tone');
 
    	//create a synth and connect it to the master output (your speakers)
-	var synth = new Tone.Synth({
+	var synth = new tone.Synth({
 		"oscillator": {
 	        "type": "triangle",
             //"modulationFrequency": 0.2

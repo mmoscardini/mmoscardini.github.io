@@ -6,6 +6,8 @@ $(document).ready(function(){
        	var ctx = canvas.getContext("2d");	//pega o contexto se for possivel
    	}
 
+   	var tone = require('tone');
+
    	//create a synth and connect it to the master output (your speakers)
 	var synth = new Tone.Synth({
 		"oscillator": {

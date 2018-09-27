@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: 0;
   font-size: 60px;
   line-height: 1.5;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 300;
 }
 @media screen and (max-width: 768px) {
@@ -526,7 +526,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 15px 30px;
   background: #0C9CEE;
   color: #fff;
-  border: none !important;
+  border: none;
   font-size: 18px;
   text-transform: uppercase;
   -webkit-border-radius: 4px;
@@ -537,7 +537,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #0a86cc !important;
+  background: #0a86cc;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -1724,3 +1724,28 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* MY CUSTOM CLASSES */
+.display-name{
+  color: #f35f55;
+}
+
+.btn-cta{
+  background: transparent !important;
+  border: 3px solid #9999ff !important;
+}
+
+.btn-cta:hover {
+  background: rgba(153, 153, 255, 0.5) !important;
+}
+
+.tech-logos{
+  text-align: center;
+  margin-left: -25px;
+}
+
+.tech-logos img{
+  width: 50px;
+  height: auto;
+  margin: 20px;
+}
